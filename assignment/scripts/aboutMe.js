@@ -17,7 +17,7 @@ let luckyNumber = 9;
 // Refer back to the videos if you need help with this one.
 console.log('My name is', fullName, 'and I think',luckyNumber, 'is a winner!')
 // 7 - Create a variable named `adventurous` and set it to a boolean value (true or false)
-let adventurous = true;
+let adventurous = false;
 console.log('I love going on adventures and traveling the world', adventurous);
 // 8 - Create a variable named `food`, and set its value to a string of your favorite food
 ;let food ='chicken wings';
@@ -34,7 +34,7 @@ pets = +2;
 let allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
-if( adventurous = true){
+if( adventurous = false){
     console.log('Adventures are great!');
 }
 else{

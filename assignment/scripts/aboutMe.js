@@ -29,7 +29,7 @@ console.log('I live with', pets, 'pets in my house');
 let friendsPets = 3;
 console.log ('however, my friend has', friendsPets, 'in their house');
 // 11 - Add two pets to your `pets` variable
-pets = +2;
+pets +=2; 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 let allowedPets = 4;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
@@ -48,7 +48,7 @@ if( luckyNumber === 2 && adventurous ){
 }
 // let luckyNumber = 9;
 // let adventurous = true;
-// if( luckyNumber == 2 && adventurous){
+// if( luckyNumber === 2 && adventurous){
 // console.log(' roll the dice')
 //}
 
@@ -59,14 +59,15 @@ if( luckyNumber === 2 && adventurous ){
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if( pets < allowedPets){
-console.log('I can have more pets');
-if(pets === allowedPets){
-    console.log('I have enough pets');
-if( pets > allowedPets){
-    console.log('Oh no, I have too many pets!');
+    console.log('I can have more pets');
+    elseif(pets === allowedPets)}
+        console.log('I have enough pets');
+        elseif( pets > allowedPets){
+            console.log('Oh no, I have too many pets!');
+        }
+    }   
 }
-}
-}
+
 
 // STRETCH GOALS:
 

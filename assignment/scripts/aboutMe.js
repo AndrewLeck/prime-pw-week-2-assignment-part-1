@@ -31,7 +31,8 @@ console.log ('however, my friend has', friendsPets, 'in their house');
 // 11 - Add two pets to your `pets` variable
 pets +=2; 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 4;
+const allowedPets = 4;
+console.log('allowed pets:', allowedPets);
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if( adventurous ){
@@ -87,7 +88,9 @@ else if ( pets > allowedPets){
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
 
+let mostPets;
 
+//if( pets)
 
 
 // 17 - Write a *switch* statement that logs:
@@ -99,4 +102,11 @@ else if ( pets > allowedPets){
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 
+// Create a conditional: if adventurous is true, console log "Adventures are great!", 
+// if it's not true, console log "How about we stay home?"
+//adventurous = false
+
+let message;
+adventurous = false? (message = 'adventures are great!') : ( message = 'how about we stay home?');
+console.log(message);
 
